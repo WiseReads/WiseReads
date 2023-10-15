@@ -1,86 +1,111 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "image": "https://img1.od-cdn.com/ImageType-100/2389-1/%7B1123FED8-AAD0-4DD8-98C6-3F9FA3AAADC9%7DImg100.jpg",
-        "type": "Classic",
-        "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+  "books": [
+    {
+      "id": 1,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://img1.od-cdn.com/ImageType-100/2389-1/%7B1123FED8-AAD0-4DD8-98C6-3F9FA3AAADC9%7DImg100.jpg",
+      "type": "Classic",
+      "book_description": "Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+     },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://m.media-amazon.com/images/I/51YqGRfgw0L.jpg",
+      "type": "Classic",
+      "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+     },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://images.booksense.com/images/935/262/9780452262935.jpg",
+      "type": "Dystopian",
+      "book_description": "Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
       },
-      {
-        "id": 2,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "image": "https://m.media-amazon.com/images/I/51YqGRfgw0L.jpg",
-        "type": "Classic",
-        "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://images.penguinrandomhouse.com/cover/9780593201060",
+      "type": "Classic",
+      "book_description": "Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+      },  {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg",
+      "type": "Coming of Age",
+      "book_description": "Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+          }, {
+      "id": 6,
+      "title": "The Lord of the Flies",
+      "author": "William Golding",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/LordOfTheFliesBookCover.jpg/220px-LordOfTheFliesBookCover.jpg",
+      "type": "Allegorical",
+      "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
       },
-      {
-        "id": 3,
-        "title": "1984",
-        "author": "George Orwell",
-        "image": "https://images.booksense.com/images/935/262/9780452262935.jpg",
-        "type": "Dystopian",
-        "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+    {
+      "id": 7,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://m.media-amazon.com/images/I/51Ppi-8kISL.jpg",
+      "type": "Fantasy",
+      "book_description": "Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+       },
+    {
+      "id": 8,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg",
+      "type": "Fantasy",
+      "book_description": "Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
       },
-      {
-        "id": 4,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "image": "https://images.penguinrandomhouse.com/cover/9780593201060",
-        "type": "Classic",
-        "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
-      {
-        "id": 5,
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "image": "https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg",
-        "type": "Coming of Age",
-        "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
-      {
-        "id": 6,
-        "title": "The Lord of the Flies",
-        "author": "William Golding",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/LordOfTheFliesBookCover.jpg/220px-LordOfTheFliesBookCover.jpg",
-        "type": "Allegorical",
-        "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
-      {
-        "id": 7,
-        "title": "Harry Potter and the Sorcerer's Stone",
-        "author": "J.K. Rowling",
-        "image": "https://m.media-amazon.com/images/I/51Ppi-8kISL.jpg",
-        "type": "Fantasy",
-        "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
-      {
-        "id": 8,
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkien",
-        "image": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg",
-        "type": "Fantasy",
-        "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
-      {
-        "id": 9,
-        "title": "The Namesake",
-        "author": "Jhumpa Lahiri",
-        "image": "https://m.media-amazon.com/images/I/41wS3d2i1LL.jpg",
-        "type": "Fiction",
-        "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+    {
+      "id": 9,
+      "title": "The Namesake",
+      "author": "Jhumpa Lahiri",
+      "image": "https://m.media-amazon.com/images/I/41wS3d2i1LL.jpg",
+      "type": "Fiction",
+      "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
+      "author_description": "This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+      "language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+     },
       {
         "id": 10,
         "title": "Animal Farm",
@@ -89,7 +114,10 @@
         "type": "Political Satire",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+        },
       {
         "id": 11,
         "title": "The Handmaid's Tale",
@@ -98,7 +126,10 @@
         "type": "Dystopian",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+      ,"language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+     },
       {
         "id": 12,
         "title": "The Martian",
@@ -107,7 +138,10 @@
         "type": "Science Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+      ,"language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
+     },
       {
         "id": 13,
         "title": "The Handmaid's Tale",
@@ -116,6 +150,9 @@
         "type": "Dystopian",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+      ,"language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+      "publication_date": "2003-10-07"
       },
       {
         "id": 14,
@@ -125,7 +162,10 @@
         "type": "Fantasy",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+        },
       {
         "id": 15,
         "title": "The Color Purple",
@@ -134,6 +174,9 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+      ,"language": "English",
+      "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
       },
       {
         "id": 16,
@@ -142,8 +185,9 @@
         "image": "data:image/jpeg;base64,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",
         "type": "Fiction",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+     ,  "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"    },
       {
         "id": 17,
         "title": "The Curious Incident of the Dog in the Night-Time",
@@ -152,7 +196,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"
+         },
       {
         "id": 18,
         "title": "The Book of Laughter and Forgetting",
@@ -161,7 +208,10 @@
         "type": "Fiction",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"
+        },
       {
         "id": 19,
         "title": "The Lord of the Rings",
@@ -170,7 +220,10 @@
         "type": "Fantasy",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"
+       },
       {
         "id": 20,
         "title": "The Alchemist",
@@ -179,7 +232,10 @@
         "type": "Fiction",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"
+        },
       {
         "id": 21,
         "title": "The Secret Life of Bees",
@@ -188,7 +244,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"
+       },
       {
         "id": 22,
         "title": "The Girl with the Dragon Tattoo",
@@ -197,7 +256,10 @@
         "type": "Thriller",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+       "publication_date": "2003-10-07"
+        },
       {
         "id": 23,
         "title": "The Hunger Games",
@@ -206,7 +268,10 @@
         "type": "Science Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+       },
       {
         "id": 24,
         "title": "The Fault in Our Stars",
@@ -215,7 +280,10 @@
         "type": "Romance",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+        },
       {
         "id": 25,
         "title": "The Book of Joy",
@@ -224,7 +292,10 @@
         "type": "Non-Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+       },
       {
         "id": 26,
         "title": "The Brief Wondrous Life of Oscar Wao",
@@ -233,7 +304,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+        },
       {
         "id": 27,
         "title": "The Curious Case of Benjamin Button",
@@ -242,7 +316,10 @@
         "type": "Fiction",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+       },
       {
         "id": 28,
         "title": "The House on Mango Street",
@@ -251,7 +328,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+       },
       {
         "id": 29,
         "title": "The Joy Luck Club",
@@ -260,7 +340,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+       },
       {
         "id": 30,
         "title": "The Secret Life of Bees",
@@ -269,7 +352,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+       },
       {
         "id": 31,
         "title": "The Lovely Bones",
@@ -278,16 +364,22 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+        },
       {
         "id": 32,
         "title": "The Help",
         "author": "Kathryn Stockett",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxCbPNywlqQaPtMPzurJLgBVxnqSR7kY8jTw&usqp=CAU",
-        "type": "Fiction",
+        "type": "Fiction",   
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words.",
+        "language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
+         },
       {
         "id": 33,
         "title": "The Book Thief",
@@ -296,7 +388,10 @@
         "type": "Historical Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+         ,"language": "English",
+         "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+         "publication_date": "2003-10-07"
+          },
       {
         "id": 34,
         "title": "The Life of Pi",
@@ -305,7 +400,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+         ,"language": "English",
+         "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+         "publication_date": "2003-10-07"
+         },
       {
         "id": 35,
         "title": "The Curious Incident of the Dog in the Night-Time",
@@ -314,7 +412,10 @@
         "type": "Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+         ,"language": "English",
+         "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+         "publication_date": "2003-10-07"
+        },
       {
         "id": 36,
         "title": "The Guernsey Literary and Potato Peel Pie Society",
@@ -323,6 +424,9 @@
         "type": "Historical Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+         "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+         "publication_date": "2003-10-07"
       },
       {
         "id": 37,
@@ -332,6 +436,9 @@
         "type": "Thriller",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
       },
       {
         "id": 38,
@@ -341,6 +448,10 @@
         "type": "Science Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+        ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       {
         "id": 39,
@@ -350,6 +461,9 @@
         "type": "Romance",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",      
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
       },
       {
         "id": 40,
@@ -359,6 +473,9 @@
         "type": "Non-Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+        "publication_date": "2003-10-07"
       },
       {
         "id": 41,
@@ -368,6 +485,10 @@
         "type": "Science Fiction",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       {
         "id": 42,
@@ -377,6 +498,10 @@
         "type": "Romance",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       {
         "id": 43,
@@ -386,6 +511,10 @@
         "type": "Fantasy",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       {
         "id": 44,
@@ -395,6 +524,10 @@
         "type": "Historical Fiction",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+         ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       {
         "id": 45,
@@ -403,8 +536,12 @@
         "image": "data:image/jpeg;base64,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",
         "type": "Magical Realism",
         "book_description": "Embark on an enthralling journey within these pages, filled with mystery, adventure, and unforgettable characters in an immersive world.",
-        "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
-      },
+          "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+          ,"language": "English",
+        "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+          "publication_date": "2003-10-07" 
+        },
       {
         "id": 46,
         "title": "The Handmaid's Tale",
@@ -413,6 +550,10 @@
         "type": "Dystopian",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       {
         "id": 47,
@@ -422,16 +563,23 @@
         "type": "Postcolonial Literature",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling.",
+
+        "publication_date": "2003-10-07"
       },
       { 
       
         "id": 48,
         "title": "Milk and Honey",
         "author": "Rupi Kaur",
-        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1246281046l/187757.jpg",
+        "image": "data:image/jpeg;base64,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",
         "type": "Poetry",
         "book_description":"Step into a captivating world where vibrant characters breathe life into mesmerizing adventures, ensuring you're hooked from the first page.",
         "author_description":"This accomplished author weaves stories with a masterful touch, captivating readers with their words."
+       ,"language": "English",
+       "main_description":"weave tales that ignite our imagination, broaden our perspectives, and stir our deepest emotions. With every page turned, they offer a magical escape, inviting readers to explore diverse cultures, empathize with complex characters, and ponder profound ideas. In the embrace of a book, readers embark on unforgettable journeys, fostering a lifelong love for the art of storytelling."
+        ,"publication_date": "2003-10-07"
       }
     ]
   }
