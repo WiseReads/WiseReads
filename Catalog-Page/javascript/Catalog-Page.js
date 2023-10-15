@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <p class="newBooks-card_text">${book.author}</p>
           <h1 class="newBooks-card_title">${book.title}</h1>
-          <i class="fa-solid fa-heart"></i>
+          <a hreaf=""><i class="fa-solid fa-heart"></i></a>
           `;
         booksSection.appendChild(bookCard);
       });
@@ -120,4 +120,24 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-  
+
+// Get all the buttons in the type-buttons container
+const buttons = document.querySelectorAll('#type-buttons button');
+
+// Add the "active" class to the "All" button by default
+const allButton = document.getElementById('btn-all');
+allButton.classList.add('active');
+
+// Add click event listeners to the buttons
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    // Remove the active class from all buttons
+    buttons.forEach((btn) => btn.classList.remove('active'));
+    
+    // Add the active class to the clicked button
+    button.classList.add('active');
+    
+    // You can also perform other actions associated with the button click here
+    // For example, update the content based on the button clicked
+  });
+});
