@@ -112,6 +112,14 @@ fetch("http://localhost:3000/books?_start=0&_limit=10")
       const bookAuthor = card.querySelector(".book__author");
       const bookTitle = card.querySelector(".book__title");
       const bookImage = card.querySelector(".book__img");
+      const bookLink = card.querySelector(".book__link");
+      const urlSearchParams = new URLSearchParams();
+      urlSearchParams.append("id", book["id"]);
+      console.log(book["id"]);
+      const href =
+        "http://127.0.0.1:5500/Book-Details/Book-Details.html?" +
+        urlSearchParams.toString();
+      bookLink.href = href;
       bookImage.src = book.image;
       bookAuthor.textContent = book.author;
       bookTitle.textContent = book.title;

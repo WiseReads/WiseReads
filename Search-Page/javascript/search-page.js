@@ -17,7 +17,7 @@ function filterBooks() {
   fetch("http://localhost:3000/books?_start=0&_limit=")
     .then((res) => res.json())
     .then((data) => {
-      bookSearchContainer.innerHTML = ""; 
+      bookSearchContainer.innerHTML = "";
 
       data.forEach((book) => {
         if (book.title.toUpperCase().includes(searchText)) {
@@ -26,6 +26,14 @@ function filterBooks() {
           const bookTitle = card.querySelector(".book__title");
           const bookDescription = card.querySelector(".book__description");
           const bookImage = card.querySelector(".book__img");
+          const bookLink = card.querySelector(".book__link");
+          const urlSearchParams = new URLSearchParams();
+          urlSearchParams.append("id", book["id"]);
+          console.log(book["id"]);
+          const href =
+            "http://127.0.0.1:5500/Book-Details/Book-Details.html?" +
+            urlSearchParams.toString();
+          bookLink.href = href;
           bookImage.src = book.image;
           bookAuthor.textContent = book.author;
           bookTitle.textContent = book.title;
