@@ -145,21 +145,10 @@
                   </a>
                   <p class="book__author"></p>
                   <p class="book__title"></p>
+                  <a href="#"><i class="fa-regular fa-heart" style="font-size:2.5rem; "></i></a>
+                  <a href="#"><i class="fa-solid fa-heart" style="font-size:2.5rem; display:none;"></i></a>
                 </div>
               </template>
-
-              <!-- <div class="book__card">
-              <a href="#" class="book__link">
-                <img
-                  src="./Home-Page/images/book1.jfif"
-                  alt="A photo for a book cover" />
-                <div class="book__overlay">
-                  <p>Read More</p>
-                </div>
-              </a>
-              <p class="book__author">john strass</p>
-              <p class="book__title">Wellness And Paradise</p>
-            </div> -->
             </div>
           </div>
         </div>
@@ -182,17 +171,17 @@
     <div class="container">
       <h1 class="newBooks-heading" style="margin-top: 10rem;">New Books</h1>
       <div class="newBooks-scroll " style="display: flex;">
-      <div class="newBooks-arrow " style=" margin-top: 15rem; margin-right:5rem; cursor: pointer;">
+      <div class="newBooks-arrow " style=" margin-top: 15rem;  cursor: pointer;">
         <i id="left" class="fa-solid fa-angle-left" style="font-size: xxx-large;"></i>
       </div>
      
-      <div class="newBooks m-1" id="newBooks">
+      <div class="newBooks " id="newBooks">
       
         <!-- cards for new books  -->
      
       </div>
     
-      <div class="newBooks-arrow " style=" margin-top: 15rem; margin-left:5rem; cursor: pointer; ">
+      <div class="newBooks-arrow " style=" margin-top: 15rem; cursor: pointer; ">
         <i id="right" class="fa-solid fa-angle-right" style="font-size: xxx-large;"></i>
       </div>
       
@@ -211,47 +200,98 @@
     </div>
   </section>
 
-<!--Top books section -->
-<section class="TopBooks">
-  <div class="container" id="book-container">
-    <h1 class="TopBooks-heading">Top 100 Books</h1>
-    <div class="row" style="display: flex; justify-content: space-between; ">
-      <div class="col-lg-2 col-md-3 col-sm-4 mb-4" style="flex: 0 0 auto; width: 200px;">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="Home-Page/images/cover1.jpg" alt="cover" height="350rem">
-          <div class="card-body">
-            <p class="card-text">Author</p>
-            <h1 class="card-title">Title</h1>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-3 col-sm-4 mb-4" style="flex: 0 0 auto; width: 200px;">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="Home-Page/images/cover2.jpg" alt="cover" height="350rem">
-          <div class="card-body">
-            <p class="card-text">Author</p>
-            <h1 class="card-title">Title</h1>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-3 col-sm-4 mb-4" style="flex: 0 0 auto; width: 200px;">
-        <div class="card" style="width: 100%;">
-          <img class="card-img-top" src="Home-Page/images/cover3.jpg" alt="cover" height="350rem">
-          <div class="card-body">
-            <p class="card-text">Author</p>
-            <h1 class="card-title">Title</h1>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </div>
-      </div>
+
+
+<!-- Top books section -->
+<section class="topBooks-section">
+  <div class="container" >
+    <h1 class="topBooks-heading">Top 100 Books</h1>
+    <div id="topBooks">
+<!-- cards for Top books  -->
     </div>
   </div>
 </section>
-
+       
     </main>
+<!--* Start Footer Section -->
 
+<footer class="footer">
+  <div class="container">
+    <div class="footer__links">
+      <div class="nav-footer">
+        <h3 class="nav-footer__heading">Pages</h3>
+        <ul class="nav-footer__links">
+          <li class="link-item">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="link-item">
+            <a href="#">Books Catalog</a>
+          </li>
+          <li class="link-item">
+            <a href="./Search-Page/search-page.html">Books Search</a>
+          </li>
+          <li class="link-item">
+            <a href="#">About Us</a>
+          </li>
+          <li class="link-item">
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-quickLinks">
+        <div class="footer-quickLinks__box">
+          <h3 class="footer-quickLinks__heading">Quick Links</h3>
+          <ul class="footer-quickLinks__links">
+            <li class="link-item">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Help</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Terms & Conditions</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Our Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-socialmedia">
+        <h3 class="footer-socialmedia__heading">Follow Us</h3>
+        <p class="footer-socialmedia__text">
+          Stay in touch with by following us on social media.
+        </p>
+        <ul class="footer-socialmedia__links">
+          <li class="link-item">
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="link-item">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="link-item">
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p class="copyright">&copy;Copyright 2023. Made by Laith Al-Majali</p>
+</footer>
+
+<!--* End Footer Section -->
     <script src="./Home-Page/javascript/Home-Page.js"></script>
   </body>
 </html>

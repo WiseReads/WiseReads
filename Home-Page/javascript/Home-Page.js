@@ -122,54 +122,146 @@ fetch("http://localhost:3000/books?_start=0&_limit=10")
 
 
 
-// Get the new books from the JSON server
-fetch("http://localhost:3000/books")
-  .then(res => res.json())
-  .then(books => {
-    if (books.length > 0) {
-      var booksArr = books;
-      var newBooks = document.getElementById("newBooks");
-      // var visibleBooks = 5;
-      var currentStart = 0;
-      var currentEnd = 5;
+// // Get the new books from the JSON server
+// fetch("http://localhost:3000/books")
+//   .then(res => res.json())
+//   .then(books => {
+//     if (books.length > 0) {
+//       var booksArr = books;
+//       var newBooks = document.getElementById("newBooks");
+//       // var visibleBooks = 5;
+//       var currentStart = 0;
+//       var currentEnd = 5;
 
-      function renderBooks() {
-        newBooks.innerHTML = "";
-        var visibleBooksArr = booksArr.slice(currentStart, currentEnd);
+//       function renderNewBooks() {
+//         newBooks.innerHTML = "";
+//         var visibleBooksArr = booksArr.slice(currentStart, currentEnd);
 
-        visibleBooksArr.forEach((book) => {
-          var newBooks_card = document.createElement('div');
-          newBooks_card.classList.add('newBooks_card');
-          newBooks_card.innerHTML = `
+//         visibleBooksArr.forEach((book) => {
+//           var newBooks_card = document.createElement('div');
+//           newBooks_card.classList.add('newBooks_card');
+//           newBooks_card.innerHTML = `
           
-            <img class="" src="${book.image}" alt="cover" width="190rem" height="280rem">
-            <p class="newBooks-card_text">${book.author}</p>
-            <h1 class="newBooks-card_title">${book.title}</h1>           
-            <i class="fa-solid fa-heart"></i>`;
-          newBooks.appendChild(newBooks_card);
-        });
-      }
+//             <img class="" src="${book.image}" alt="cover" width="190rem" height="280rem">
+//             <p class="newBooks-card_text">${book.author}</p>
+//             <h1 class="newBooks-card_title">${book.title}</h1> 
 
-      renderBooks();
-// End Get the newBooks from the JSON server
+//             <a href="#"><i class="fa-regular fa-heart" style="font-size:2.5rem; "></i></a>
+//             <a href="#"><i class="fa-solid fa-heart" style="font-size:2.5rem; display:none;"></i></a>`;
+//           newBooks.appendChild(newBooks_card);
+//         });
+//       }
+
+//       renderNewBooks();
+// // End Get the newBooks from the JSON server
 
    
 
-// Handel the slider in NewBooks-cards section 
-      var arrowBtns = document.querySelectorAll('.newBooks-scroll i');
-      arrowBtns.forEach(btn => {
-        btn.addEventListener("click", () => {
-          if (btn.id === "left" && currentStart > 0) {
-            currentStart -= 1;
-            currentEnd -= 1;
-          } else if (btn.id === "right" && currentEnd < booksArr.length) {
-            currentStart += 1;
-            currentEnd += 1;
-          }
-          renderBooks();
+// // Handel the slider in NewBooks-cards section 
+//       var arrowBtns = document.querySelectorAll('.newBooks-scroll i');
+//       arrowBtns.forEach(btn => {
+//         btn.addEventListener("click", () => {
+//           if (btn.id === "left" && currentStart > 0) {
+//             currentStart -= 1;
+//             currentEnd -= 1;
+//           } else if (btn.id === "right" && currentEnd < booksArr.length) {
+//             currentStart += 1;
+//             currentEnd += 1;
+//           }
+//           renderNewBooks();
 
+//         });
+//       });
+//     }
+//   });
+
+        // Get the new books from the JSON server
+fetch("http://localhost:3000/books")
+.then(res => res.json())
+.then(books => {
+    if (books.length > 0) {
+        var booksArr = books;
+        var newBooks = document.getElementById("newBooks");
+        var currentStart = 0;
+        var currentEnd = 5;
+        var maxDisplayedBooks = 20;
+
+        function renderNewBooks() {
+            newBooks.innerHTML = "";
+
+            // Calculate the maximum number of books to display (up to 20)
+            var maxBooks = Math.min(currentEnd, maxDisplayedBooks);
+
+            var visibleBooksArr = booksArr.slice(currentStart, maxBooks);
+
+            visibleBooksArr.forEach((book, index) => {
+                if (index < maxDisplayedBooks) {
+                    var newBooks_card = document.createElement('div');
+                    newBooks_card.classList.add('newBooks_card');
+                    newBooks_card.innerHTML = `
+                        <img class="" src="${book.image}" alt="cover" width="190rem" height="280rem">
+                        <p class="newBooks-card_text">${book.author}</p>
+                        <h1 class="newBooks-card_title">${book.title}</h1> 
+                        <a href="#"><i class="fa-regular fa-heart" style="font-size:2.5rem; "></i></a>
+                        <a href="#"><i class="fa-solid fa-heart" style="font-size:2.5rem; display:none;"></i></a>`;
+                    newBooks.appendChild(newBooks_card);
+                }
+            });
+
+            // Disable the right button when reaching the end
+            if (currentEnd >= booksArr.length) {
+                document.getElementById("right").style.display = "none";
+            } else {
+                document.getElementById("right").style.display = "inline-block";
+            }
+        }
+
+        renderNewBooks();
+
+        // Handle the slider in NewBooks-cards section
+        var arrowBtns = document.querySelectorAll('.newBooks-scroll i');
+        arrowBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                if (btn.id === "left" && currentStart > 0) {
+                    currentStart -= 1;
+                    currentEnd -= 1;
+                } else if (btn.id === "right" && currentEnd < booksArr.length) {
+                    currentStart += 1;
+                    currentEnd += 1;
+                }
+                renderNewBooks();
+            });
         });
-      });
+    }
+});
+// End Handel the slider in NewBooks-cards section 
+// Get the top books from the JSON server
+fetch("http://localhost:3000/books")
+  .then((res) => res.json())
+  .then((books) => {
+    if (books.length > 0) {
+      var booksArr = books;
+      var topBooks = document.getElementById("topBooks");
+
+      function renderTopBooks() {
+        topBooks.innerHTML = "";
+        var visibleTopBooksArr = booksArr.slice(8,11 );
+
+        visibleTopBooksArr.forEach((book) => {
+          var topBooks_card = document.createElement("div");
+          topBooks_card.classList.add("topBooks_card");
+          topBooks_card.innerHTML = `
+            
+              <img src="${book.image}" alt="cover" width="350rem" height="350rem">
+          
+            <p class="topBooks-card_text">${book.author}</p>
+            <h1 class="topBooks-card_title">${book.title}</h1>
+            <a href="#"><i class="fa-regular fa-heart" style="font-size:2.5rem;"></i></a>
+            <a href="#"><i class="fa-solid fa-heart" style="font-size:2.5rem; display:none;"></i></a>`;
+          topBooks.appendChild(topBooks_card);
+        });
+      }
+
+      renderTopBooks();
     }
   });
-// End Handel the slider in NewBooks-cards section 
