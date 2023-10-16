@@ -22,7 +22,7 @@
     <!--* Start Header -->
     <header class="header">
       <div class="header__box">
-        <a href="index.html" class="logo-link">
+        <a href="./user-profile/UserProfile.html" class="logo-link">
           <img
             src="./Home-Page/images/logo.png"
             alt="An image of a logo"
@@ -34,16 +34,16 @@
               <a href="index.html">Home</a>
             </li>
             <li class="list-item">
-              <a href="#">Register</a>
+              <a href="Catalog-Page/Catalog-Page.html">Catalog</a>
             </li>
             <li class="list-item">
               <a href="#">News</a>
             </li>
             <li class="list-item">
-              <a href="#">About Us</a>
+              <a href="./About-Us/About-Us.html">About Us</a>
             </li>
             <li class="list-item">
-              <a href="#">Contact Us</a>
+              <a href="./user-profile/contactus.html">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -55,8 +55,8 @@
           </div>
         </a>
         <div>
-          <button id="login">Login</button>
-          <button id="signUp">Sign Up</button>
+         <a href="log/register.html"> <button id="login">Login</button></a>
+         <a href="log/register.html">  <button id="signUp">Sign Up</button></a>
         </div>
         <div class="hamburger">
           <span class="bar"></span>
@@ -134,7 +134,7 @@
             <div class="books__grid">
               <template data-book-template>
                 <div class="book__card">
-                  <a href="./Book-Details/Book-Details.html" class="book__link">
+                  <a href="" class="book__link">
                     <img
                       src=""
                       alt="A photo for a book cover"
@@ -145,21 +145,10 @@
                   </a>
                   <p class="book__author"></p>
                   <p class="book__title"></p>
+                  <a href="./user-profile/favourite.html"><i class="fa-regular fa-heart" style="font-size:2.5rem; "></i></a>
+                  <a href="#"><i class="fa-solid fa-heart" style="font-size:2.5rem; display:none;"></i></a>
                 </div>
               </template>
-
-              <!-- <div class="book__card">
-              <a href="#" class="book__link">
-                <img
-                  src="./Home-Page/images/book1.jfif"
-                  alt="A photo for a book cover" />
-                <div class="book__overlay">
-                  <p>Read More</p>
-                </div>
-              </a>
-              <p class="book__author">john strass</p>
-              <p class="book__title">Wellness And Paradise</p>
-            </div> -->
             </div>
           </div>
         </div>
@@ -175,8 +164,126 @@
         </div>
       </section>
       <!--* End Books Section -->
-    </main>
 
+      
+  <!-- New books section -->
+  <section class="newBooks-section">
+    <div class="container">
+      <h1 class="newBooks-heading" style="margin-top: 10rem;">New Books</h1>
+      <div class="newBooks-scroll " style="display: flex;">
+      <div class="newBooks-arrow " style=" margin-top: 15rem;  cursor: pointer;">
+        <i id="left" class="fa-solid fa-angle-left" style="font-size: xxx-large;"></i>
+      </div>
+     
+      <div class="newBooks " id="newBooks">
+      
+        <!-- cards for new books  -->
+     
+      </div>
+    
+      <div class="newBooks-arrow " style=" margin-top: 15rem; cursor: pointer; ">
+        <i id="right" class="fa-solid fa-angle-right" style="font-size: xxx-large;"></i>
+      </div>
+      
+      </div>
+    </div>
+
+    <div class="new-features">
+      <div class="new-features__content">
+        <h4>Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Excepturi, nulla eveniet! Delectus error, molestiae, magni nisi
+          obcaecati id praesentium.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- Top books section -->
+<section class="topBooks-section">
+  <div class="container" >
+    <h1 class="topBooks-heading">Top 100 Books</h1>
+    <div id="topBooks">
+<!-- cards for Top books  -->
+    </div>
+  </div>
+</section>
+       
+    </main>
+<!--* Start Footer Section -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__links">
+      <div class="nav-footer">
+        <h3 class="nav-footer__heading">Pages</h3>
+        <ul class="nav-footer__links">
+          <li class="link-item">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="link-item">
+            <a href="#">Books Catalog</a>
+          </li>
+          <li class="link-item">
+            <a href="./Search-Page/search-page.html">Books Search</a>
+          </li>
+          <li class="link-item">
+            <a href="./About-Us/About-Us.html">About Us</a>
+          </li>
+          <li class="link-item">
+            <a href="./user-profile/contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-quickLinks">
+        <div class="footer-quickLinks__box">
+          <h3 class="footer-quickLinks__heading">Quick Links</h3>
+          <ul class="footer-quickLinks__links">
+            <li class="link-item">
+              <a href="FAQ/FAQ.html">FAQ</a>
+            </li>
+            <li class="link-item">
+              <a href="./privacy page/privacy.html">Privacy Policy</a>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-socialmedia">
+        <h3 class="footer-socialmedia__heading">Follow Us</h3>
+        <p class="footer-socialmedia__text">
+          Stay in touch with by following us on social media.
+        </p>
+        <ul class="footer-socialmedia__links">
+          <li class="link-item">
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="link-item">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="link-item">
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p class="copyright">WiseReads&copy;Copyright 2023. Made by Laith Al-Majali</p>
+</footer>
+
+<!--* End Footer Section -->
     <script src="./Home-Page/javascript/Home-Page.js"></script>
   </body>
 </html>
