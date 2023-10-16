@@ -8,6 +8,7 @@ tabs.forEach(el => {
         li.classList.remove("active");
       });
       e.target.classList.add("active");
+      
       document.querySelectorAll(".content > div").forEach(div => {
         div.classList.remove("active");
       });
@@ -23,5 +24,7 @@ tabs.forEach(el => {
       document.querySelector(`.${e.target.parentElement.dataset.name}`).classList.add("active");
     }
   })
+  
 })
 let change = document.querySelectorAll("change");
+

@@ -270,15 +270,6 @@ font-family: "Cormorant", serif;
   width: 20rem;
   font-size: 2rem;
 }
-.fav_tab {
-  display: flex;
-  gap: 5rem;
-  margin: 3rem;
-  padding: 3rem;
-}
-.fav_tab .card {
-  border: none;
-}
 
 body {
   color: var(--secondary-color);
@@ -544,3 +535,23 @@ button.contact_form_submit {
 }
 
 /** End Footer Section */
+.mail
+{
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+.phone {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+.change{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  width: 70rem; 
+  width: 2;
+}
