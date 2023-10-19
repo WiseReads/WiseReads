@@ -7,7 +7,7 @@
 
 -[Mockup Link](https://www.figma.com/file/wZypmdgo7TZaq4yobEgxpV/WiseReads?type=design&node-id=32-212&mode=design&t=pXt2qioIg7uVi6O5-0)
 
--[My github repo](https://github.com/Malath-Yasin/wiseReads_repo)
+-[My github repo](https://github.com/laith17/WiseReads)
 
 
 -[Our github organization](https://github.com/WiseReads/WiseReads)
